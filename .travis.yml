@@ -1,0 +1,9 @@
+addons:
+  sonarcloud:
+    organization: "juliakas"
+    token:
+      plain: "84fa04b905a593306460d88b513e04ea31b5d6f8"
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
