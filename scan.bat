@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.organization=juliakas" -D"sonar.projectKey=Juliakas_AspTestSQLI" -D"sonar.sources=." -D"sonar.host.url=https://sonarcloud.io" -D"sonar.login=84fa04b905a593306460d88b513e04ea31b5d6f8"
